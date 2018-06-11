@@ -1,13 +1,4 @@
----
-categories:
- - weekly
-title: "2 - Unix shell, scripting"
-slides: ""
-visible: 1
----
 
-- [Slides: Unix]({{site.baseurl}}/assets/02_Unix/01_Unix.pdf)  
-- [Slides: Shell scripting]({{site.baseurl}}/assets/02_Unix/02_Scripting.pdf)  
 
 ## References
 
@@ -38,3 +29,6 @@ visible: 1
 - Linux basics manuals and tutorials by [Thomas Girke](http://girke.bioinformatics.ucr.edu/). [http://hpcc.ucr.edu/manuals_linux-basics_intro](http://hpcc.ucr.edu/manuals_linux-basics_intro)
 
 - A curated list of delightful Bash scripts and resources. [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
+
+## `todo`
+
