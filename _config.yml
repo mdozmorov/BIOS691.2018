@@ -1,0 +1,69 @@
+# site setup
+# Exclude this stuff
+exclude: [node_modules, gulpfile.js, README.md, BUILD.md, LICENSE, .gitignore, pages, assets]
+permalink: /:title/
+markdown: kramdown
+# baseurl is used as a subdomain suffix. If a site is hosted on http://site.url/mysite, 
+# "/mysite" is the baseurl. For local debugging on localhost, baseurl should be commented out
+baseurl: /BIOS691.2018
+# course setup
+title: "Reproducible research tools"
+semester: "Summer 2018"
+duration: "1 credit-hour, 8 hours"
+instructor:
+ - Mikhail Dozmorov, first dot last at vcuhealth dot edu
+coursecode:
+ - "BIOS 691-001"
+coursedates:
+ - "June 11 to June 14, 2018."
+coursetime: "9:00 am to 12:00 pm"
+courselocation:
+ - "One Capitol Square, Rm 5009"
+communication:
+ -
+   name: "Email"
+   description: ""
+   details: "mikhail.dozmorov@vcuhealth.org"
+ -
+   name: ""
+   description: ""
+   details: ""
+ -
+   name: ""
+   description: ""
+   details: ""
+officehours:
+  description: "By appointment"
+  link: ""
+# Tachyons Version
+tv: "4.6.1"
+
+# SCSS Compress
+sass:
+  style: compressed
+
+  # All links will be namespaced by BASE_PATH if defined.
+  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # however this value will be dynamically changed depending on your deployment situation.
+  #
+  # CNAME (http://yourcustomdomain.com)
+  #   DO NOT SET BASE_PATH
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Pages (http://username.github.io)
+  #   DO NOT SET BASE_PATH
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Project Pages (http://username.github.io/project-name)
+  #
+  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - Only the following values are falsy: ["", null, false]
+  #   - When setting BASE_PATH it must be a valid url.
+  #     This means always setting the protocol (http|https) or prefixing with "/"
+BASE_PATH : http://mdozmorov.github.io/BIOS691.2018
+
+#production_url : http://mdozmorov.github.io/BIOS668.2018
