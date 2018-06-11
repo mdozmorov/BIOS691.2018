@@ -1,13 +1,3 @@
----
-categories:
- - weekly
-title: "4 - Git and GitHub"
-slides: ""
-visible: 1
----
-
-- [Slides: Git and GitHub]({{site.baseurl}}/assets/04_GitHub/01_Git.pdf)  
-
 ## References
 
 - One-pager simple `git` guide. [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/) 
@@ -37,3 +27,8 @@ visible: 1
 - GitHub training videos. [https://www.youtube.com/user/GitHubGuides/videos](https://www.youtube.com/user/GitHubGuides/videos) 
 
 - "Learn the most important Git commands in a free video course" by Trevor D. Miller, trevordmiller, [https://trevordmiller.com/courses/real-world-git](https://trevordmiller.com/courses/real-world-git)
+
+
+
+
+## ToDo - todo list
