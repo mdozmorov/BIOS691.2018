@@ -1,15 +1,3 @@
----
-categories:
- - weekly
-title: "6 - Makefiles"
-slides: ""
-visible: 1
----
-
-- [Slides: Command line automation with Makefiles]({{site.baseurl}}/assets/06_Makefiles/01_Makefiles.pdf)  
-- [Makefile example]({{site.baseurl}}/assets/06_Makefiles/lab/Makefile)  
-
-
 ## References
 
 - "Why Use Make" blog post by Mike Bostock, [https://bost.ocks.org/mike/make/](https://bost.ocks.org/mike/make/)
@@ -23,4 +11,7 @@ visible: 1
 - Makefiles in bioinformatics, one PDF lecture and four exercises, [https://github.com/vsbuffalo/makefiles-in-bioinfo](https://github.com/vsbuffalo/makefiles-in-bioinfo)
 
 - Stallman, Richard M., and Roland McGrath. "GNU Make-A Program for Directing Recompilation." (1991). [https://www.gnu.org/software/make/manual/make.pdf](https://www.gnu.org/software/make/manual/make.pdf)
+
+
+## ToDo - todo list
 
