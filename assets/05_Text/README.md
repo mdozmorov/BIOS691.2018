@@ -1,13 +1,3 @@
----
-categories:
- - weekly
-title: "5 - Text manipulation and regular expression"
-slides: ""
-visible: 1
----
-
-- [Slides: Text manipulation, regular expression, grep, awk, sed, vim ]({{site.baseurl}}/assets/05_Text/01_Text.pdf)  
-
 ## References
 
 - Regular expression, Unix commands, Python quick reference, SQL reference card. [http://practicalcomputing.org/files/PCfB_Appendices.pdf](http://practicalcomputing.org/files/PCfB_Appendices.pdf)
@@ -19,3 +9,7 @@ visible: 1
 - Interactive Vim tutorial. [http://www.openvim.com/](http://www.openvim.com/) 
 
 - Vim reference card. [http://web.mit.edu/merolish/Public/vi-ref.pdf](http://web.mit.edu/merolish/Public/vi-ref.pdf) 
+
+
+## `todo`
+
