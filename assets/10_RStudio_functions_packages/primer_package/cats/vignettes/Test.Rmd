@@ -1,0 +1,12 @@
+---
+title: "Data frame performance"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Data frame performance}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+
+One of the reasons that dplyr is fast is that it's very careful about when to make copies. This section describes how this works, and gives you some useful tools for understanding the memory usage of data frames in R.

@@ -1,0 +1,14 @@
+---
+title: "Data frame performance"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Cat love}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+
+Test vignette for the cat function
+
+ 
