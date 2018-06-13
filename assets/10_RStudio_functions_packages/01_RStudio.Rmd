@@ -1,0 +1,155 @@
+---
+title: "Introduction to RStudio"
+author: "Mikhail Dozmorov"
+date: "Summer 2018"
+output:
+  beamer_presentation:
+    # colortheme: seahorse
+    colortheme: dolphin
+    fig_caption: no
+    fig_height: 6
+    fig_width: 7
+    fonttheme: structurebold
+    # theme: boxes
+    theme: AnnArbor
+---
+
+## RStudio
+
+**What is it?**
+
+- **R** is the underlying statistical computing environment, but using R alone is no fun
+- **RStudio** is a graphical integrated development environment that makes using R much easier.
+    * RStudio offers some GUI (graphical user interface) features for R
+    * The same R program is running underneath the interface
+* RStudio is open-source software (and therefore is free)
+    * Available for download at: http://rstudio.com
+    
+## Panes in RStudio
+
+- There are four panes, and their orientation is configurable under "Tools -- Global Options." Defaults are:
+    - Editor in the top left
+    - Console bottom left
+    - Environment/history on the top right
+    - Plots/help on the bottom right.
+
+## Projects
+
+- First, start a new project in a new folder somewhere easy to remember
+    - Keep project code and data in the same place
+- Creating a project creates an `Rproj` file that opens R running _in that folder_. This way, when you want to read in dataset _whatever.txt_, you just tell it the filename rather than a full path. This is critical for reproducibility
+
+## RStudio 
+
+Open RStudio and this is what you will see:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole.png}
+\end{center}
+
+## RStudio 
+
+Outlined in red is the R Console:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole2.png}
+\end{center}
+
+## RStudio 
+
+You can open a new script in the editing window:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole3.png}
+\end{center}
+
+## RStudio 
+
+Or you can open an existing script:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole4.png}
+\end{center}
+
+## RStudio 
+
+There can be multiple scripts open in the editing window:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole5.png}
+\end{center}
+
+## RStudio 
+
+History tab shows command run:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole6.png}
+\end{center}
+
+## RStudio 
+
+Environment tab keeps track of the things the user defines:
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole7.png}
+\end{center}
+
+## RStudio 
+
+Plots appear in the plots tab (as expected):
+
+\begin{center}
+\includegraphics[height=190px]{img/RStudioConsole8.png}
+\end{center}
+
+## Getting help
+
+- Is there a built-in function that does **x**? and if so,
+- Where can i find it among the +2000 R Packages in CRAN?
+
+- Use `?function_name` to get help on a function from a _loaded_ package
+- Use `??function_name` to search for the function across all installed packages, even not loaded
+- Use `apropos("part_of_function_name")` if you forgot the exact name, to get suggestions what the function name may be
+- `library(sos)`, `findFn` function, e.g., findFn("cosine", maxPages=2, sortby="MaxScore")
+- Search engine is your best friend on many things
+
+## RStudio keyboard shortcuts
+
+- `Command (Ctrl) + Enter` - Run current line/selection, go to the next line  
+- `Alt + Enter` - Run current line/selection, stay on the current line
+- `Ctrl + 1` - Move cursor to source  
+- `Ctrl + 2` - Move cursor to console  
+- `Ctrl + L` - Clear console
+- `Ctrl + Alt + I` - Create new code chunk
+- `Ctrl + Alt + c` - Run current code chunk
+- All the usual - `Ctrl + Z, C, X, V, S, O`
+
+\tiny And more: https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
+
+## Turning off annoyances
+
+- Tools, Global Options:
+    - Uncheck “Restore .RData into workspace at startup”
+    - Set to Never: “Save workspace to .RData on exit: Never”
+    - Uncheck "Show output inline for all R Markdown documents"
+
+## RStudio summary
+
+**Why use it?**
+
+- Project-centric work - scripts and data are organized in one folder (project), easily accessible 
+- Single workspace with four (rearrangeable, zoomable) panels
+- Work on multiple projects simultaneously in several instances of RStudio
+- Work on multiple (types of) scripts (rearrangeable tabbed interface)
+- See all variables in R environment, easily visualize them
+- Easy access to help, plots, packages
+- Simple integration with Git version control system
+
+## RStudio Tutorials
+
+* http://dss.princeton.edu/training/RStudio101.pdf
+* http://stcorp.nl/R_course/rstudio_tutorial.html
+    * This tutorial describes RStudio's interaction with git
+
+
