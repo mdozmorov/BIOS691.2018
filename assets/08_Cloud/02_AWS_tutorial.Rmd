@@ -1,0 +1,83 @@
+---
+title: "AWS tutorial"
+author: "Mikhail Dozmorov"
+date: "Summer 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Sign up for AWS: 
+
+- Create an AWS account, [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#sign-up-for-aws](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#sign-up-for-aws). In order to do this you will need to provide a phone number and a credit card. The phone number will be used to get a pin number and the credit card will receive a $1 charge that will be removed. 
+
+While the accounts are free, Amazon charges for these products and will charge your account if you go over the 750 hour limit they provide. You can set up usage alarms at [http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-alarms.html](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-alarms.html) in order to avoid going over your limit and being charged.
+
+- Install and configure AWS CLI [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/), [https://docs.aws.amazon.com/cli/latest/userguide/installing.html](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
+
+- Open AWS management console, [https://console.aws.amazon.com/console/](https://console.aws.amazon.com/console/)
+    - "All services," "EC2"
+    - "INSTANCES," "Instances," click "Launch Instance"
+    - Look for "Free tier eligible" options, select "Amazon Linux AMI 2017.09.1 (HVM), SSD Volume Type - ami-1853ac65" or similar
+    - "Step 2: Choose an Instance Type", choose "t2.micro" which is free tier eligible
+    - Click "Next: Configure Instance Details" - leave all defaults
+    - Click "Next: Add Storage" - leave all defaults
+    - Click "Next: Add Tags," "Add tag," set "Key" as "Name" and "Value" as "Dev-Server"
+    - Click "Next: Configure Security Group," "Assign a security group:" - "Create a new security group," "Security group name:" - "dev-appserver-secgroup," "Description:" - "basic secgroup for development server." Click "Add Rule," add "HTTP," "TCP," "80," "Custom," "0.0.0.0/0, ::/0,"
+        - For running RStudio server, add a new rule: Custom TCP, 8000-9000, Source Anywhere.
+    - Click "Review and Launch," "Launch"
+    - "Create a new key pair," name it like "tutorial_aws," download the key, the file will have ".pem" extension. This is the single place where you can download your key. Read more about key pairs [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
+    - Click "Launch Instance," read the following screen, then, at the end of the page, click "View Instance"
+    - Wait until "Instance State" becomes "running," note "IPv4 Public IP", e.g. exi
+
+- Move you key into `~/.ssh` folder, `mv tutorial_aws.pem ~/.ssh`
+- Make sure it is the right permissions `chmod 400 ~/.ssh/tutorial_aws.pem`
+- SSH into your instance as `ssh ec2-user@52.206.48.94 -i ~/.ssh/tutorial_aws.pem`
+- Add the key to SSH, `ssh-add ~/.ssh/tutorial_aws.pem`, check your work `ssh-add -l`
+
+If Docker is not installed, you can install it for Amazon Linux AMI following the instructions at [https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#install_docker](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#install_docker), or for Ubuntu [https://docs.docker.com/install/linux/docker-ce/ubuntu/#os-requirements](https://docs.docker.com/install/linux/docker-ce/ubuntu/#os-requirements)
+
+Install RStudio Server with the following commands. See [https://www.rstudio.com/products/rstudio/download-server/](https://www.rstudio.com/products/rstudio/download-server/) for the latest links
+
+```
+$ wget https://download2.rstudio.org/rstudio-server-rhel-1.1.442-x86_64.rpm
+$ sudo yum install rstudio-server-rhel-1.1.442-x86_64.rpm
+```
+
+## Attach external storage
+
+Your system is stored on EBS - elastic (ephemeral) block storage. 
+
+
+## Terminating your instance
+
+Amazon will happily charge you for running instances and/or associated ephemeral storage - it’s your responsibility to turn things off. The right way to do this for running instances is to terminate.
+
+The caveat here is that everything ephemeral will be deleted (excluding volumes that you created/attached). So you want to make sure you transfer off anything you care about.
+
+To terminate:
+
+1. Select Actions, Instance State, Terminate
+
+## When do disks go away?
+
+- never on reboot;
+- ephemeral disks go away on stop;
+- AMI-attached volumes go away on terminate;
+- attached volumes never go away on terminate and have to be explicitly deleted;
+- snapshots only go away when you explicitly delete them.
+
+## What are you charged for?
+
+- you are charged for a running instance at the instance price rates;
+- ephemeral storage/instance-specific storage is included within that.
+- when you stop an instance, you are charged at disk-space rates for the stopped disk;
+- when you create a volume, you are charged for that volume until you delete it;
+- when you create a snapshot, you are charged for that snapshot until you delete it.
+
+To make sure you’re not getting charged, go to your Instance view and clear all search filters; anything that is “running” or “stopped” is costing you. Also check your volumes and your snapshots - they should be empty.
+
+
+
+<!--Go to [https://cloud-images.ubuntu.com/locator/ec2/](https://cloud-images.ubuntu.com/locator/ec2/), search for "us-east 16.04", find "hvm:ebs-ssd" ("hardware virtual machine:elastic block storage") Instance Type, copy its "AMI-ID," e.g., `ami-916f59f4`-->
+

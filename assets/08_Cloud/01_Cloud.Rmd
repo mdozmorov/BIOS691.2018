@@ -1,0 +1,80 @@
+---
+title: "Cloud computing"
+author: "Mikhail Dozmorov"
+date: "Spring 2018"
+output:
+  beamer_presentation:
+    # colortheme: seahorse
+    colortheme: dolphin
+    fig_caption: no
+    fig_height: 6
+    fig_width: 7
+    fonttheme: structurebold
+    # theme: boxes
+    theme: AnnArbor
+---
+
+## Cloud providers
+
+<!-- Table_cloud.xlsx -->
+
+\tiny
+
+| Platform                        | Website                       | Notes                                               |
+|---------------------------------|-------------------------------|-----------------------------------------------------|
+| AWS                             | www.aws.amazon.com            | Largest commercial provider, IaaSa                  |
+| Google Cloud Platform           | cloud.google.com              | IaaS                                                |
+| Microsoft Azure                 | azure.microsoft.com           | IaaS                                                |
+| IBM Cloud                       | www.ibm.com/cloud/            | IaaS                                                |
+| Alibaba Cloud                   | www.alibabacloud.com          | IaaS                                                |
+| DNAnexus                        | www.dnanexus.com              | SaaSb; used by ENCODE                               |
+| Illumina BaseSpace Sequence Hub | basespace.illumina.com        | SaaS                                                |
+| Seven Bridges                   | www.sevenbridges.com/platform | SaaS; hosts one of the platforms for the CGC Pilots |
+| Globus Genomics                 | globusgenomics.org            | SaaS                                                |
+
+\tiny Langmead, Ben, and Abhinav Nellore. “Cloud Computing for Genomic Data Analysis and Collaboration.” Nature Reviews Genetics, January 30, 2018. https://doi.org/10.1038/nrg.2017.113.
+
+<!-- ACENET, Atlantic Computational Excellence Network; AWS, Amazon Web Services; CGC, Cancer Genomics Cloud; EMBL–EBI, de.NBI, German Network for Bioinformatics Infrastructure; European Molecular Biology Laboratory at the European Bioinformatics Institute; ENCODE, Encyclopedia of DNA Elements; ISB, Institute for Systems Biology; Nectar, National eResearch Collaboration Tools and Resources project; NCI, National Cancer Institute; NSF, National Science Foundation; OSDC, Open Science Data Cloud; TACC, Texas Advanced Computing Center; XSEDE, Extreme Science and Engineering Discovery Environment. aInfrastructure as a service (IaaS) providers offer pay-as-you-go cloud computing infrastructure together with software layers that facilitate deployment. bSoftware as a service (SaaS) providers offer cloud-based genomics data analysis, data sharing and collaboration tools that run on IaaS providers. -->
+
+## Academic cloud services
+
+\tiny
+
+| Platform                       | Website                                                           | Notes                                                                                                                                                                                                      |
+|--------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Seven Bridges CGC              | cancergenomicscloud.org                                           | Part of the CGC Pilots initiative; includes collaboration tools; allows working with new data                                                                                                              |
+| Broad FireCloud                | software.broadinstitute.org/firecloud                             | Part of the CGC Pilots initiative by the NCI to fund three platforms that colocate genomic data and analysis tools in the cloud; includes collaboration tools; allows working with new data                |
+| ISB-CGC                        | http://cgc.systemsbiology.net/                                    | Part of the CGC Pilots initiative                                                                                                                                                                          |
+| XSEDE                          | xsede.org                                                         | Supported by NSF                                                                                                                                                                                           |
+| Jetstream                      | jetstream-cloud.org                                               | Science cloud in XSEDE located at TACC and Indiana University's Pervasive Technology Institute                                                                                                             |
+| Rodeo                          | www.tacc.utexas.edu/systems/rodeo                                 | Part of TACC, which is located at the University of Texas at Austin and contains large-scale computing resources; Comprises 256 processing cores and 2 TB of memory allocated for the Galaxy public server |
+| Corral                         | www.tacc.utexas.edu/systems/corral                                | Part of TACC; Comprises 20 PB of storage allocated for the Galaxy public server                                                                                                                            |
+
+\tiny Langmead, Ben, and Abhinav Nellore. “Cloud Computing for Genomic Data Analysis and Collaboration.” Nature Reviews Genetics, January 30, 2018. https://doi.org/10.1038/nrg.2017.113.
+
+## Academic cloud services
+
+\tiny
+
+| Platform                       | Website                                                           | Notes                                                                                                                                                                                                      |
+|--------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| European Open Science Cloud    | ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud | Proposed science cloud across European Union member states                                                                                                                                                 |
+| OSDC                           | opensciencedatacloud.org                                          | PB-scale science cloud tailored for access to and analysis of publicly available data stored in the OSDC Data Commons                                                                                      |
+| Bionimbus Protected Data Cloud | bionimbus-pdc.opensciencedatacloud.org                            | Science cloud associated with OSDC that permits secure analysis of protected health information                                                                                                            |
+| Compute Canada                 | computecanada.ca                                                  | High-performance Canadian computing network spanning ACENET, Calcul Québec, Compute Ontario and WestGrid                                                                                                   |
+| de.NBI                         | www.denbi.de                                                      | Bioinformatics service provider in Germany spanning education, consulting, computing and storage, as well as databases                                                                                     |
+| Embassy Cloud                  | embassycloud.org                                                  | Science cloud for EMBL–EBI affiliates including direct access to public genomics data sets                                                                                                                 |
+| Helix Nebula                   | helix-nebula.eu                                                   | European open science partnership across industry and academia to provide cloud computing infrastructure                                                                                                   |
+| Nectar Cloud                   | nectar.org.au                                                     | Self-service Australian science cloud                                                                                                                                                                      |
+
+\tiny Langmead, Ben, and Abhinav Nellore. “Cloud Computing for Genomic Data Analysis and Collaboration.” Nature Reviews Genetics, January 30, 2018. https://doi.org/10.1038/nrg.2017.113.
+
+
+## AWS (Amazon Web Services) 
+
+- Provides Elastic Compute Cloud (EC2) as a service that allows users to perform cloud computing (for a cost) without the cost of setting up the actual hardware necessary
+
+\tiny https://aws.amazon.com/
+
+
+
