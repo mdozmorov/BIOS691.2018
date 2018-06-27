@@ -16,6 +16,8 @@
 
 - Rstudio tutorial slides - [http://dss.princeton.edu/training/RStudio101.pdf](http://dss.princeton.edu/training/RStudio101.pdf) 
 
+- "Introduction to R/RStudio" by Thomas Girke, [https://github.com/girke-class/REU2018](https://github.com/girke-class/REU2018), and rendered page [https://github.com/girke-class/REU2018](https://github.com/girke-class/REU2018)
+
 ### R packages
 
 - Transform repeated code into functions. [http://kbroman.org/steps2rr/pages/functions.html](http://kbroman.org/steps2rr/pages/functions.html) 
