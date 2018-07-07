@@ -35,7 +35,7 @@
 
  - Interactive plots in R, [https://davetang.org/muse/2018/05/18/interactive-plots-in-r/](https://davetang.org/muse/2018/05/18/interactive-plots-in-r/)
 
-
+- The R Graph Gallery, all graphs [http://www.r-graph-gallery.com/all-graphs/](http://www.r-graph-gallery.com/all-graphs/)
 
 ## `misc`
 
