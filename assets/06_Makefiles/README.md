@@ -15,3 +15,5 @@
 
 ## ToDo - todo list
 
+- The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences.” Nature Methods 15, no. 7 (July 2018): 475–76. [https://doi.org/10.1038/s41592-018-0046-7](https://doi.org/10.1038/s41592-018-0046-7) - Conda, Bioconda overview.
+
