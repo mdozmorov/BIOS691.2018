@@ -2,6 +2,8 @@
 
 ## References
 
+- `stats337` - Readings in Applied Data Science, collection of papers assembled by Hadley Wickham, [https://github.com/hadley/stats337](https://github.com/hadley/stats337)
+
 - Geir Kjetil Sandve, Anton Nekrutenko, James Taylor, and Eivind Hovig. "Ten Simple Rules for Reproducible Computational Research." PLoS Computational Biology 2013. [http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) 
 
 - List, Markus, Peter Ebert, and Felipe Albrecht. "Ten Simple Rules for Developing Usable Software in Computational Biology." PLoS Computational Biology 2017. [http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005265](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005265)
