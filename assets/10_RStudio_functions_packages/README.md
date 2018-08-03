@@ -20,6 +20,8 @@
 
 ### R packages
 
+- "How to create an R package" example and links. [https://github.com/isteves/r-pkg-intro](https://github.com/isteves/r-pkg-intro)
+
 - Transform repeated code into functions. [http://kbroman.org/steps2rr/pages/functions.html](http://kbroman.org/steps2rr/pages/functions.html) 
 
 - How-to package functions. [http://kbroman.org/steps2rr/pages/packages.html](http://kbroman.org/steps2rr/pages/packages.html) 
