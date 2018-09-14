@@ -12,6 +12,8 @@
 
 - Stallman, Richard M., and Roland McGrath. "GNU Make-A Program for Directing Recompilation." (1991). [https://www.gnu.org/software/make/manual/make.pdf](https://www.gnu.org/software/make/manual/make.pdf)
 
+- List of workflow tools for R projects. [https://github.com/jdblischak/r-project-workflows](https://github.com/jdblischak/r-project-workflows)
+
 
 ## ToDo - todo list
 
