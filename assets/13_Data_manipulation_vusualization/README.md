@@ -11,6 +11,8 @@
 
 ## References
 
+- O'Donoghue, Sen I., Benedetta Frida Baldi, Susan J. Clark, Aaron E. Darling, James M. Hogan, Sandeep Kaur, Lena Maier-Hein, et al. "Visualization of Biomedical Data." Annual Review of Biomedical Data Science 1, no. 1 (July 20, 2018). https://doi.org/10.1146/annurev-biodatasci-080917-013424. - Visualization best practices (the use of length, area, color etc.)
+
 - Data Manipulation Using R (& dplyr). PDF slides available at [https://ramnarasimhan.files.wordpress.com/2014/10/data-manipulation-using-r_acm2014.pdf](https://ramnarasimhan.files.wordpress.com/2014/10/data-manipulation-using-r_acm2014.pdf), and [http://www.slideshare.net/Ram-N/data-manipulation-using-r-acm2014](http://www.slideshare.net/Ram-N/data-manipulation-using-r-acm2014) 
 
 - Data Manipulation with `dplyr`. [http://datascienceplus.com/data-manipulation-with-dplyr/](http://datascienceplus.com/data-manipulation-with-dplyr/) 
@@ -24,6 +26,8 @@
 - "Data Manipulation Using R (& dplyr)" slides by Ram Narasimhan, [http://www.slideshare.net/Ram-N/data-manipulation-using-r-acm2014](http://www.slideshare.net/Ram-N/data-manipulation-using-r-acm2014)
 
 - Hands-on dplyr tutorial for faster data manipulation in R, [https://www.youtube.com/watch?v=jWjqLW-u3hc](https://www.youtube.com/watch?v=jWjqLW-u3hc)
+
+- Animations of tidyverse verbs using R, the tidyverse, and gganimate. [https://github.com/gadenbuie/tidy-animated-verbs](https://github.com/gadenbuie/tidy-animated-verbs)
 
 - "Data visualization in R" by Data Carpentry. [http://www.datacarpentry.org/R-genomics/05-data-visualization.html](http://www.datacarpentry.org/R-genomics/05-data-visualization.html) 
 
