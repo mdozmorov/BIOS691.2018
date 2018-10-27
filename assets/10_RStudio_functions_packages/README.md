@@ -12,6 +12,8 @@
 
 - `learnr`: Interactive tutorials for R, [https://github.com/rstudio/learnr](https://github.com/rstudio/learnr), [https://rstudio.github.io/learnr/](https://rstudio.github.io/learnr/)
 
+- List of courses teaching R, [https://github.com/rstudio-education/rstats-ed](https://github.com/rstudio-education/rstats-ed)
+
 ### RStudio
 
 - Rstudio tutorial slides - [http://dss.princeton.edu/training/RStudio101.pdf](http://dss.princeton.edu/training/RStudio101.pdf) 
