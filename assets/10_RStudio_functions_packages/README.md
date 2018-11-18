@@ -14,6 +14,8 @@
 
 - List of courses teaching R, [https://github.com/rstudio-education/rstats-ed](https://github.com/rstudio-education/rstats-ed)
 
+- Hands-On Programming with R, a book that teaches how to program in R, with hands-on examples. GitHub [https://github.com/rstudio-education/hopr](https://github.com/rstudio-education/hopr). Read the book at [https://rstudio-education.github.io/hopr](https://rstudio-education.github.io/hopr)
+
 ### RStudio
 
 - Rstudio tutorial slides - [http://dss.princeton.edu/training/RStudio101.pdf](http://dss.princeton.edu/training/RStudio101.pdf) 
