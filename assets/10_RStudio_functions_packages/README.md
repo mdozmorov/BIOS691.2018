@@ -16,6 +16,8 @@
 
 - Hands-On Programming with R, a book that teaches how to program in R, with hands-on examples. GitHub [https://github.com/rstudio-education/hopr](https://github.com/rstudio-education/hopr). Read the book at [https://rstudio-education.github.io/hopr](https://rstudio-education.github.io/hopr)
 
+- `stat133-cheatsheets` - Cheat sheets on R, tidyverse, shiny, git, and more, [https://github.com/ucb-stat133/stat133-cheatsheets](https://github.com/ucb-stat133/stat133-cheatsheets)
+
 ### RStudio
 
 - Rstudio tutorial slides - [http://dss.princeton.edu/training/RStudio101.pdf](http://dss.princeton.edu/training/RStudio101.pdf) 
