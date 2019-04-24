@@ -37,6 +37,8 @@
 
 - ProjectTemplate - advanced project template, [https://github.com/johnmyleswhite/ProjectTemplate](https://github.com/johnmyleswhite/ProjectTemplate), [http://projecttemplate.net/](http://projecttemplate.net/)
 
+- Setting up a new project directory in the terminal or R. https://github.com/moldach/project-directory
+
 ### R
 
 - Mastering Software Development in R, [https://bookdown.org/rdpeng/RProgDA/](https://bookdown.org/rdpeng/RProgDA/)
