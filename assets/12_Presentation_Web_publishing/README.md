@@ -26,3 +26,5 @@
 - Beamer template for RMarkdown class presentation, [https://github.com/mdozmorov/beamer_template](https://github.com/mdozmorov/beamer_template)
 
 ## ToDo
+
+- First reproducible article published in eLife, "Pioneering ‘live-code’ article allows scientists to play with each other’s results", https://www.nature.com/articles/d41586-019-00724-7
