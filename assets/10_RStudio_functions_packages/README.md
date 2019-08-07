@@ -55,5 +55,5 @@
 
 - Comprehensive Beginner’s Guide to Jupyter Notebooks for Data Science & Machine Learning, [https://www.analyticsvidhya.com/blog/2018/05/starters-guide-jupyter-notebook/](https://www.analyticsvidhya.com/blog/2018/05/starters-guide-jupyter-notebook/)
 
-
+- Presentation on writing R packages. https://github.com/ddsjoberg/writing-R-packages
 
