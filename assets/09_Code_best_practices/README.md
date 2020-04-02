@@ -62,6 +62,15 @@
 
 - SQLite tutorial. https://github.com/tthibo/SQL-Tutorial
 
+- Vliet, Marijn van. “Guidelines for Data Analysis Scripts.” ArXiv:1904.06163 [Cs], April 12, 2019. http://arxiv.org/abs/1904.06163.
+
+1. Each analysis step is one script
+2. A script either processes a single recording, or aggregates across recordings, never both 
+3. One master script to run the entire analysis
+4. Save all intermediate results
+5. Visualize all intermediate results
+6. Each parameter and filename is defined only once
+7. Distinguish files that are part of the official pipeline from other scripts
 
 
 

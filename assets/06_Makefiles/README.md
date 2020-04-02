@@ -19,3 +19,8 @@
 
 - The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences.” Nature Methods 15, no. 7 (July 2018): 475–76. [https://doi.org/10.1038/s41592-018-0046-7](https://doi.org/10.1038/s41592-018-0046-7) - Conda, Bioconda overview.
 
+- https://github.com/jperkel/Snakemake_example - A Snakemake 'Hello world!' workflow
+
+- Intro to workflows for efficient automated data analysis, using snakemake. Titus Brown. https://github.com/ctb/2019-snakemake-ucdavis
+
+- Understanding Snakemake, https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html

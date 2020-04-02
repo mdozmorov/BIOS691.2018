@@ -32,3 +32,14 @@
 
 ## `todo`
 
+- How to remove duplicate lines from files keeping the original order. https://iridakos.com/how-to/2019/05/16/remove-duplicate-lines-preserving-order-linux.html
+
+- ShellCheck, finds bugs in your shell scripts. https://www.shellcheck.net/
+
+- https://github.com/manubot/rootstock/pull/233#issuecomment-500898800
+
+- add a header to your tsv in pipe, `cat my.tsv | header -a 'GeneID\tChr\tStart\tEnd'`. https://github.com/jeroenjanssens/data-science-at-the-command-line/blob/master/tools/header
+
+- Command line for data science, with examples. https://blog.robertelder.org/data-science-linux-command-line/
+
+- Awesome list dedicated to Windows Subsystem for Linux, https://github.com/sirredbeard/Awesome-WSL

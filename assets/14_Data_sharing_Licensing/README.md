@@ -12,3 +12,6 @@
 
 - Goodman, Alyssa, Alberto Pepe, Alexander W. Blocker, Christine L. Borgman, Kyle Cranmer, Merce Crosas, Rosanne Di Stefano, et al. "Ten Simple Rules for the Care and Feeding of Scientific Data." PLoS Computational Biology 2014. Lists all major data sharing repositories. [http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542) 
 
+# `misc`
+
+- `BS143_Lecture_academic_integrity_plagiarism_and_referencing_2019_v4.pptx` - from https://twitter.com/TeifLab/status/1183121181546823680

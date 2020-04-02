@@ -15,6 +15,8 @@
 
 - Video: Introduction to Docker, 47 min [https://www.youtube.com/watch?v=Q5POuMHxW-0](https://www.youtube.com/watch?v=Q5POuMHxW-0)
 
+- Video: Docker Tutorial for Beginners - Run applications in containers, 2 h 10 min, with interactive labs, https://www.youtube.com/watch?v=fqMOX6JJhGo
+
 ## Exercises
 
 - RStudio in Docker with knitr, RMarkdown, and enough TeX to generate PDF. An example of Dockerfile and instructions how to build an image. [https://github.com/mccahill/docker-rstudio](https://github.com/mccahill/docker-rstudio)
@@ -30,3 +32,23 @@
 
 -  A comprehensive tutorial on getting started with Docker! https://docker-curriculum.com/, https://github.com/prakhar1989/docker-curriculum
 
+- How I use Bioconductor with Docker. https://medium.com/@nitesh.turaga/how-i-use-bioconductor-with-docker-ca9d17d87771
+
+- Docker containers for Bioconductor. https://www.bioconductor.org/help/docker/
+
+- "3 reasons to ‘Bioconductor’ on Containers" presentation by Nitesh Turaga. https://docs.google.com/presentation/d/1sOUH1cP9EglvsVcV7w3qqvnjUccYbFA3sb9ra-jh90U/edit#slide=id.g5984daccb4_0_45
+
+- CyVerse Creating and Running Docker Containers, https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/
+    - Making a Dockerfile - https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/step3.html
+
+- Reproducible Research through Containerisation: Docker and Singularity. https://github.com/rainsworth/osip2019-containerisation-workshop
+
+- An Introduction to Docker for R Users. https://colinfay.me/docker-r-reproducibility/
+
+- Docker tutorial by Dave Tang, https://davetang.github.io/reproducible_bioinformatics/docker.html
+
+- `awesome-docker` - A curated list of Docker resources and projects, https://awesome-docker.netlify.com/, https://github.com/veggiemonk/awesome-docker
+
+- docknitr: Using Docker in Rmarkdown, https://cran.r-project.org/web/packages/docknitr/vignettes/docknitr.html
+
+- Various Dockerfiles I use on the desktop and on servers. https://github.com/jessfraz/dockerfiles

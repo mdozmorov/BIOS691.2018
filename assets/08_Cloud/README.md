@@ -22,7 +22,11 @@ More Beamer themes: http://deic.uab.es/~iblanes/beamer_gallery/
 
 ## `misc` - misc presentations and materials
 
+- `CloudComputeResourceGrantDataset_Part*` - Source: https://github.com/TheJacksonLaboratory/JAXBD2K-ShortCourse
+
 
 ## ToDo - todo list
 
 https://github.com/uvasomrc/courses
+
+- Uploading to Amazon S3 using AWS CLI. https://davetang.org/muse/2019/12/23/uploading-to-amazon-s3/

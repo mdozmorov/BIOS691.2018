@@ -51,9 +51,30 @@
 
 - `r-viz-gapminder.Rmd`, `gapminder.csv` - ggplot2 and dplyr tutorial and exercises, https://github.com/thriv/datasci2017
 
+- `gentle-ggplot2` - A Gentle Guide to the Grammar of Graphics with ggplot2, https://github.com/gadenbuie/gentle-ggplot2
 
 ## ToDo
 
+- Awesome ggplot2 https://github.com/erikgahner/awesome-ggplot2
+
 - An Introduction to Shiny. https://github.com/juliasilge/intro_to_shiny
 
+- Staniak, Mateusz, and Przemyslaw Biecek. “The Landscape of R Packages for Automated Exploratory Data Analysis.” ArXiv:1904.02101 [Cs, Stat], March 27, 2019. http://arxiv.org/abs/1904.02101. - CRAN packages for exploratory data analysis, review of 12 packages. 
 
+- `tidylog` - "tidylog: provides feedback about basic dplyr operations" GH repo: https://github.com/elbersb/tidylog, https://www.youtube.com/watch?v=B-CBS5W8EGU&feature=youtu.be
+
+- dtplyr provides a dplyr backend for data.table. The goal of dtplyr is to allow you to write dplyr code that is automatically translated to the equivalent, but usually much faster, data.table code. https://dtplyr.tidyverse.org/
+
+- Pivoting, reformatting data into long/wide formats, https://tidyr.tidyverse.org/dev/articles/pivot.html
+
+- From Data to Viz leads you to the most appropriate graph for your data. https://www.data-to-viz.com/
+
+- A graphical introduction to tidyr's pivot_*(), https://speakerdeck.com/yutannihilation/a-graphical-introduction-to-tidyrs-pivot-star
+
+- A data.table and dplyr tour. https://atrebas.github.io/post/2019-03-03-datatable-dplyr/
+
+- Reusing Tidyverse code. https://speakerdeck.com/lionelhenry/reusing-tidyverse-code
+
+- Collection of teaching materials for the R package {ggplot2}. https://github.com/Z3tt/ggplot-courses
+
+- Animating plots in R [Detailed, step-by-step tutorial on creating an animation with ggplot2+gganimate](https://twitter.com/strnr/status/1192900393656651776) - https://skirmer.github.io/animation_prez.html#1

@@ -22,6 +22,14 @@
 
 ## ToDo - todo list
 
+- Manubot - collaborative manuscripts in Markdown, flexible citations, Pandoc backend, Travis CI. https://manubot.org/
+    - Himmelstein, Daniel S., Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, and Anthony Gitter. “Open Collaborative Writing with Manubot.” PLoS Computational Biology 15, no. 6 (June 24, 2019): e1007128. https://doi.org/10.1371/journal.pcbi.1007128.
+
+- Rmarkdown for Scientists https://rmd4sci.njtierney.com/, https://github.com/njtierney/rmd4sci
+
+- Garrett Grolemund, Keynote slides for my talk R Markdown: The Bigger Picture at rstudio::conf 2019. https://github.com/garrettgman/rmarkdown-the-bigger-picture
+
+- Demonstration of the use of an R package to organize a data analysis project https://waldronlab.io/ProjectAsPackage/, https://github.com/waldronlab/ProjectAsPackage
 
 
 
