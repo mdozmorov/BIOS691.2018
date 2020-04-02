@@ -13,3 +13,5 @@
 
 ## `todo`
 
+- Learn regex the easy way. https://github.com/ziishaned/learn-regex
+

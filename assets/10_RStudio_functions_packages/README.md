@@ -71,3 +71,5 @@
 
 - R Cookbook, 2nd Edition. https://rc2e.com
 
+- Presentation on writing R packages. https://github.com/ddsjoberg/writing-R-packages
+
