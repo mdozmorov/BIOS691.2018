@@ -1,5 +1,7 @@
 ## References
 
+- [New to Git and GitHub? This Essential Beginners Guide is for you](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
+
 - One-pager simple `git` guide. [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/) 
 
 - One-pager of `git` commands. [https://github.com/kbroman/Tools4RR/blob/master/04_Git/GitCommands/git_notes.md](https://github.com/kbroman/Tools4RR/blob/master/04_Git/GitCommands/git_notes.md) 
