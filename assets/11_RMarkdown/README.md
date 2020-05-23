@@ -20,6 +20,8 @@
 
 - `IntroToLatex.pdf`, `LaTeX_examples_from_slides`, `Beamer_example_IntroToLaTeX_slides` - Intro into LaTeX, BibTex, Beamer. https://github.com/adw96/biostat561/tree/master/lecture6
 
+- `install.Rmd`, `markdown.Rmd`, `rmarkdown.Rmd` - R/RStudio installation, R/markdown reference. `reference` and `install` have images. Source: https://github.com/laderast/stats_for_neuroscientists
+
 ## ToDo - todo list
 
 - Manubot - collaborative manuscripts in Markdown, flexible citations, Pandoc backend, Travis CI. https://manubot.org/
