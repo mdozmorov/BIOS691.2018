@@ -10,6 +10,7 @@
 
 - Vim reference card. [http://web.mit.edu/merolish/Public/vi-ref.pdf](http://web.mit.edu/merolish/Public/vi-ref.pdf) 
 
+- Curated Regular Expression Resources, https://paulvanderlaken.com/2020/04/07/curated-regular-expression-resources/, https://www.r-bloggers.com/curated-regular-expression-resources/
 
 ## `todo`
 
