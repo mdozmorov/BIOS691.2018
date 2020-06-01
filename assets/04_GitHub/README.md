@@ -1,5 +1,7 @@
 ## References
 
+- [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk) - 1-hour video course
+
 - [New to Git and GitHub? This Essential Beginners Guide is for you](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
 
 - One-pager simple `git` guide. [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/) 
