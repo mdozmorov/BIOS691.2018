@@ -1,18 +1,16 @@
 ## References
 
-- Regular expression, Unix commands, Python quick reference, SQL reference card. [http://practicalcomputing.org/files/PCfB_Appendices.pdf](http://practicalcomputing.org/files/PCfB_Appendices.pdf)
+- [Regular expression, Unix commands, Python quick reference, SQL reference card](http://practicalcomputing.org/files/PCfB_Appendices.pdf)
 
-- Tutorial to `sed` by Bruce Barnett. [http://www.grymoire.com/Unix/Sed.html](http://www.grymoire.com/Unix/Sed.html) 
+- [Tutorial to sed](http://www.grymoire.com/Unix/Sed.html) by Bruce Barnett
 
-- Vim introduction and tutorial. [https://blog.interlinked.org/tutorials/vim_tutorial.html](https://blog.interlinked.org/tutorials/vim_tutorial.html) 
+- [Interactive Vim tutorial](http://www.openvim.com/) 
 
-- Interactive Vim tutorial. [http://www.openvim.com/](http://www.openvim.com/) 
+- [Vim reference card](http://web.mit.edu/merolish/Public/vi-ref.pdf) 
 
-- Vim reference card. [http://web.mit.edu/merolish/Public/vi-ref.pdf](http://web.mit.edu/merolish/Public/vi-ref.pdf) 
+- [Curated Regular Expression Resources](https://paulvanderlaken.com/2020/04/07/curated-regular-expression-resources/)
 
-- Curated Regular Expression Resources, https://paulvanderlaken.com/2020/04/07/curated-regular-expression-resources/, https://www.r-bloggers.com/curated-regular-expression-resources/
+- [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 
 ## `todo`
-
-- Learn regex the easy way. https://github.com/ziishaned/learn-regex
 

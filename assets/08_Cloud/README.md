@@ -8,25 +8,19 @@ More Beamer themes: http://deic.uab.es/~iblanes/beamer_gallery/
 
 ## References
 
-- Langmead, Ben, and Abhinav Nellore. “Cloud Computing for Genomic Data Analysis and Collaboration.” Nature Reviews Genetics, January 30, 2018. [https://doi.org/10.1038/nrg.2017.113](https://doi.org/10.1038/nrg.2017.113) - Big data and cloud computing overview. Tables with cloud computing providers, big data types. Chief source of key references.
+- [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) - Amazon Web Services — a practical guide
 
-- Illustrated guide to Amazon EC2, UC Davis, Titus Brown, [https://2016-feb-aws.readthedocs.io/](https://2016-feb-aws.readthedocs.io/)
-- Bioconductor AMIs in the cloud, [https://bioconductor.org/help/bioconductor-cloud-ami/](https://bioconductor.org/help/bioconductor-cloud-ami/)
+- [Amazon Web Services](https://2016-feb-aws.readthedocs.io/) - Illustrated guide to Amazon EC2, UC Davis, Titus Brown, [Video lecture, 2 h 42 min](https://www.youtube.com/watch?v=IFdBD3YdLJc&feature=youtu.be)
 
-- Video: Amazon AWS Tutorial #1, 22 min, [https://www.youtube.com/watch?v=Xs0g_ZEv2bw](https://www.youtube.com/watch?v=Xs0g_ZEv2bw)
-- Video: Brief guide on running RStudio Server's web interface on Amazon Web Services, and references therein. [https://www.youtube.com/watch?v=NQu3ugUkYTk&list=PLuFFQwn__hQddxX6RhiGGeEdDy0MjWOO1](https://www.youtube.com/watch?v=NQu3ugUkYTk&list=PLuFFQwn__hQddxX6RhiGGeEdDy0MjWOO1). Text version: [https://amunategui.github.io/EC2-RStudioServer/](https://amunategui.github.io/EC2-RStudioServer/)
-
-- Data Carpentry Genomics Workshop, Amazon EC2 installation. [http://www.datacarpentry.org/genomics-workshop/](http://www.datacarpentry.org/genomics-workshop/)
-
-- Amazing Guide to using Amazon Web Services (AWS), illustrated step-by-step tutorial. [https://github.com/dwyl/learn-amazon-web-services](https://github.com/dwyl/learn-amazon-web-services)
-
+- [Amazing Guide to using Amazon Web Services (AWS)](https://github.com/dwyl/learn-amazon-web-services), illustrated step-by-step tutorial
 ## `misc` - misc presentations and materials
 
-- `CloudComputeResourceGrantDataset_Part*` - Source: https://github.com/TheJacksonLaboratory/JAXBD2K-ShortCourse
+- Video: Amazon AWS Tutorial [#1, 22 min](https://www.youtube.com/watch?v=Xs0g_ZEv2bw), [#2, 13 min](https://www.youtube.com/watch?v=tMC4h-arGPA), [#3, 16 min](https://www.youtube.com/watch?v=z59TDrLSFx4)
+
+
+
+- Langmead, Ben, and Abhinav Nellore. “Cloud Computing for Genomic Data Analysis and Collaboration.” Nature Reviews Genetics, January 30, 2018. [https://doi.org/10.1038/nrg.2017.113](https://doi.org/10.1038/nrg.2017.113) - Big data and cloud computing overview. Tables with cloud computing providers, big data types. Chief source of key references.
 
 
 ## ToDo - todo list
 
-https://github.com/uvasomrc/courses
-
-- Uploading to Amazon S3 using AWS CLI. https://davetang.org/muse/2019/12/23/uploading-to-amazon-s3/

@@ -32,34 +32,29 @@
 
 ### R packages
 
-- "How to create an R package" example and links. [https://github.com/isteves/r-pkg-intro](https://github.com/isteves/r-pkg-intro)
+- [Writing R packages](http://www.danieldsjoberg.com/writing-R-packages/#1) lecture slides by Daniel Sjoberg. [GitHub source](https://github.com/ddsjoberg/writing-R-packages)
 
-- Transform repeated code into functions. [http://kbroman.org/steps2rr/pages/functions.html](http://kbroman.org/steps2rr/pages/functions.html) 
+- [How to create an R package](https://isteves.github.io/r-pkg-intro/Presentation.html#/) lecture slides by Irene Steves, Mitchell Maier. [GitHub source](https://github.com/isteves/r-pkg-intro)
 
-- How-to package functions. [http://kbroman.org/steps2rr/pages/packages.html](http://kbroman.org/steps2rr/pages/packages.html) 
+- Short notes by Karl Broman: [How-to package functions](http://kbroman.org/steps2rr/pages/packages.html), [Transform repeated code into functions](http://kbroman.org/steps2rr/pages/functions.html), [R package primer](http://kbroman.org/pkg_primer/), and [Package tutorial by Hillary Parker](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/) 
 
-- Package tutorial by Hillary Parker. [https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/) 
+- [R packages](http://r-pkgs.had.co.nz/) book by Hadley Wickham
 
-- R package primer by Karl Broman. [http://kbroman.org/pkg_primer/](http://kbroman.org/pkg_primer/) 
+- [Package Development tutorial for useR! 2019 Toulouse](https://github.com/jennybc/pkg-dev-tutorial), by Jenny Bryant, slides, exercises
 
-- "R packages" book by Hadley Wickham. [http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/) 
+- [Jeff Leek on developing R packages(https://github.com/jtleek/rpackages) 
 
-- Jeff Leek on developing R packages. [https://github.com/jtleek/rpackages](https://github.com/jtleek/rpackages) 
+- [sinew](https://github.com/metrumresearchgroup/sinew) R package for making templates of help headers for functions
 
-- `sinew` R package for making templates of help headers for functions. [https://github.com/metrumresearchgroup/sinew](https://github.com/metrumresearchgroup/sinew)
+- [pRojects](https://github.com/lockedata/pRojects) R package for making project templates
 
-- `pRojects` R package for making project templates. [https://github.com/lockedata/pRojects](https://github.com/lockedata/pRojects)
+- [mkrpkg](https://github.com/noamross/mkrpkg) - Template for making R packages
 
-- `mkrpkg` - Template for making R packages. [https://github.com/noamross/mkrpkg](https://github.com/noamross/mkrpkg)
-
-- https://github.com/jennybc/pkg-dev-tutorial - Package Development tutorial for useR! 2019 Toulouse
 
 
 ## `misc` - misc presentations and materials
 
 ## ToDo - todo list
-
-- Comprehensive Beginner’s Guide to Jupyter Notebooks for Data Science & Machine Learning, [https://www.analyticsvidhya.com/blog/2018/05/starters-guide-jupyter-notebook/](https://www.analyticsvidhya.com/blog/2018/05/starters-guide-jupyter-notebook/)
 
 - Project-oriented workflow. https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
 
@@ -71,5 +66,4 @@
 
 - R Cookbook, 2nd Edition. https://rc2e.com
 
-- Presentation on writing R packages. https://github.com/ddsjoberg/writing-R-packages
-
+- "Efficient R programming" by Colin Gillespie & Robin Lovelace, https://bookdown.org/csgillespie/efficientR/
